@@ -6,4 +6,4 @@ Rafrænt borðspil verkefni - Verksmiðja K2 - 2024
 
 Höfundar: Ella Sigurðardóttir, Kristófer Birgisson og Stefan Erlendur.
 
-![Sick mynd](M2_Ultra_Dyn.heic)
+![Sick mynd](MATTEBLACKM2GLOW copy.png)
