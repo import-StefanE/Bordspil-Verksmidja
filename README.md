@@ -31,30 +31,6 @@ Leikreglur:
       Gata: 11:1
       Klofning: 17:1
       Ein tala: 35:1
-
-
-**Skilgreiningar**
-from machine import Pin, SoftI2C
-from random import randint
-from time import ticks_ms
-from I2C_LCD import I2cLcd
-from neopixel import NeoPixel
-
-a = Pin(2, Pin.OUT)
-b = Pin(42, Pin.OUT)
-c = Pin(41, Pin.OUT)
-d = Pin(39, Pin.OUT)
-e = Pin(37, Pin.OUT)
-f = Pin(35, Pin.OUT)
-g = Pin(40, Pin.OUT)
-h = Pin(38, Pin.OUT)
-i = Pin(36, Pin.OUT)
-
-neo = NeoPixel(Pin(16), 24)
-
-takki = Pin(17, Pin.IN, Pin.PULL_UP)
-
-takkiljos = Pin(18, Pin.OUT)
       
       
       
