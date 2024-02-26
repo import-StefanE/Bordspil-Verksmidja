@@ -61,7 +61,7 @@ while True:
         
     # Færi bendilinn í staf nr. 0 og línu nr. 0
     lcd.move_to(0, 0)
-    lcd.putstr("Kristo er")
+    lcd.putstr("Talan er")
     # Færi bendilinn í staf nr. 0 og línu nr. 1
     lcd.move_to(0, 1)
     lcd.putstr(f"{talan}")
