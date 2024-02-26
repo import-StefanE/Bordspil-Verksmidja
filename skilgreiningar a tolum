@@ -1,0 +1,52 @@
+Ýtir á takka
+Neopixel hringur snýst í 2 sek
+Tala birtist á skjánum
+Þegar það gerist lýsist neopixel upp í réttann lit (blátt eða rautt) eftir því hvaða tala er á skjánum
+Allar viðeigandi perur lýsast á borðinu.
+Helst svoleiðis þangað til að ýtt er aftur á takkann
+
+
+00. 
+0
+ACEG
+ABDG
+ACEG
+ABDG
+ACEG
+ABDG
+ACEG
+ABDG
+ACEG
+ABDH
+ACDH
+ABEH
+ACDH
+ABEH
+ACDH
+FBEH
+FCDH
+FBEH
+FCEI
+FBDI
+FCEI
+FBDI
+FCEI
+FBDI
+FCEI
+FBDI
+FCEI
+FBDI
+FCDI
+FBEI
+
+Ljós 
+A- tölur 1-15
+B- sléttar tölur
+C- rauðar tölur
+D- svartar tölur
+E- oddatölur
+F- tölur 16-30 
+G- fyrstu 9
+H- seinni 9
+I- þriðju 9
+
