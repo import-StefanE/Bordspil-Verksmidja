@@ -5,6 +5,17 @@ from time import ticks_ms
 from I2C_LCD import I2cLcd
 from neopixel import NeoPixel
 
+# Skjárinn nota I2C tengingu til að tala við ESP
+i2c = SoftI2C(scl=Pin(4), sda=Pin(5), freq=400000)
+lcd = I2cLcd(i2c, 0x3f, 2, 16)
+
+# Færi bendilinn í staf nr. 0 og línu nr. 0
+lcd.move_to(0, 0)
+lcd.putstr("Hallo")
+# Færi bendilinn í staf nr. 0 og línu nr. 1
+lcd.move_to(0, 1)
+lcd.putstr("Heimur")
+
 a = Pin(2, Pin.OUT)
 b = Pin(42, Pin.OUT)
 c = Pin(41, Pin.OUT)
