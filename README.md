@@ -6,7 +6,9 @@ Höfundar: Ella Sigurðardóttir, Kristófer Birgisson og Stefan Erlendur.
 
 Verkefnið var að búa til rafrænt borðspil.
 
-Það sem við völdum var að búa til fjárhættuspilið rúllettu (Roulette á ensku).
+Við ákvaðum að búa til fjárhættuspilið rúllettu (Roulette á ensku).
+
+Við gerðum það rafrænt með því að nota neopixel til að líkja eftir kúlu að snúast á rúlettuborðið. Þessu fylgir hljóði sem líkist ljóðinu sem kemur frá kúlunni. Þegar "kúlann" hættir að snúast birtist handahófskennd tala milli 1-30 + tölurnar 0 og 00. Á sama tíma lýsist neohringurinn í þeim lit sem talan er. Þegar tala birtist á skjánnum þá lýsast allar litlu led perurnar sem þessi tala á við. T.d. ef talann 11 birtist, þá lýsast 1-15, svartur, odda og seinni 9 ljósin. Þetta helst svona þangað til að einhver ýtir aftur á takkann til að byrja leikinn upp á nýtt.
 
 Leikreglur:
   Markmið spilsins er að áætla hvar ljósið birtist til að fá stig.
@@ -31,6 +33,8 @@ Leikreglur:
       Gata: 11:1
       Klofning: 17:1
       Ein tala: 35:1
+
+
       
       
       
