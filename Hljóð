@@ -1,0 +1,24 @@
+from machine import Pin, PWM,
+from random import randint
+from time import sleep_ms
+ 
+ 
+hatalari = PWM(Pin(15), freq=1000)
+ 
+
+   
+def rulletta():
+    sofa = 20
+    
+    for _ in range(20):
+        hatalari.duty(511)
+        hatalari.freq(1200)
+        sleep_ms(sofa)
+        hatalari.duty(0)
+        sleep_ms(sofa)
+        sofa += 10
+        
+
+
+rulletta()
+
