@@ -78,7 +78,7 @@ def hvadaljostala():
         d.value(1)
     else:
         d.value(0)
-    if talan in [33, 34]:
+    if talan in [31, 32]:
         a.value(0)
 
 
